@@ -1,0 +1,11 @@
+venv/
+.env
+vectorstore/
+__pycache__/
+*.pyc
+.idea/
+terraform/
+.github/
+tests/
+evaluation/
+*.md
