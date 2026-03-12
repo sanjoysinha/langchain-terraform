@@ -91,8 +91,8 @@ resource "aws_ecs_task_definition" "app" {
       command     = ["CMD-SHELL", "curl -f http://localhost:${var.container_port}/_stcore/health || exit 1"]
       interval    = 30
       timeout     = 10
-      retries     = 3
-      startPeriod = 60
+      retries     = 5
+      startPeriod = 120
     }
   }])
 

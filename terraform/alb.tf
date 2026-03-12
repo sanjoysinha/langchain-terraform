@@ -23,7 +23,7 @@ resource "aws_lb_target_group" "app" {
     protocol            = "HTTP"
     port                = "traffic-port"
     healthy_threshold   = 2
-    unhealthy_threshold = 3
+    unhealthy_threshold = 5 # increased from 3 to 5
     timeout             = 10
     interval            = 30
     matcher             = "200"
