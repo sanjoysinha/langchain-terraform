@@ -1,0 +1,16 @@
+streamlit==1.50.0
+langchain==0.3.27
+langchain-openai==0.3.35
+langchain-community==0.3.31
+langchain-core==0.3.83
+langchain-text-splitters==0.3.11
+langchain-astradb==0.6.0
+pypdf==6.7.0
+python-dotenv==1.2.1
+langsmith==0.4.37
+openai==2.20.0
+ragas==0.4.3
+duckduckgo-search>=6.0.0
+datasets>=2.0.0
+pytest==8.3.5
+pytest-mock==3.14.0

@@ -1,0 +1,10 @@
+.env
+vectorstore/
+__pycache__/
+*.pyc
+.idea/
+venv/
+*.tfstate
+*.tfstate.backup
+.terraform/
+tfplan
