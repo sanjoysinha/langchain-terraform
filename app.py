@@ -145,8 +145,7 @@ if st.sidebar.button("Clear Chat"):
 
 # Sidebar status
 if st.session_state.vectorstore is not None:
-    doc_count = len(st.session_state.vectorstore.docstore._dict)
-    st.sidebar.info(f"Vector store loaded -- {doc_count} chunks indexed")
+    st.sidebar.info("Vector store connected (AstraDB)")
 else:
     st.sidebar.warning("No documents loaded. Upload PDFs or TXT files to get started.")
 
