@@ -1,0 +1,7 @@
+[server]
+maxUploadSize = 200        # max file size in MB (default is 200)
+enableXsrfProtection = false  # fixes 400 errors behind ALB/reverse proxy
+enableCORS = false
+
+[browser]
+gatherUsageStats = false

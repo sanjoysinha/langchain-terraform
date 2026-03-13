@@ -6,6 +6,7 @@ resource "aws_lb" "main" {
   subnets            = aws_subnet.public[*].id
 
   enable_deletion_protection = false
+  idle_timeout               = 300   # 5 min — allows large file uploads
 
   tags = { Name = "${var.app_name}-alb" }
 }
